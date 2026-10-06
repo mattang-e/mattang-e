@@ -12,35 +12,108 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-### :boy: 자기소개
----
-👋 안녕하세요
-시스템 엔지니어로 일하고 있습니다. 현재 클라우드에서 서버 구성 및 모니터링을 하고있습니다.<br/>
-문제를 다양한 방법으로 해결하는 것을 좋아합니다.
+Infrastructure / DevOps Engineer
 
-<!--### :construction_worker: 경력-->
+10년 가까이 Linux 기반 인프라를 구축·운영하며 서버, 네트워크, 스토리지, 가상화 및 AWS 환경을 경험해왔습니다.
 
+현재는 기존 인프라 운영 경험을 기반으로 Kubernetes, Container, CI/CD 및 GitOps 영역으로 기술 역량을 확장하고 있습니다.
 
-### :books: 자격증
----
-* 네트워크관리사 2급
-* 리눅스마스터 2급
-* 정보처리기사
-* AWS Certified Cloud Practitioner
+Tech Stack
 
-### 블로그
----
-[<img src="https://img.shields.io/badge/velog-20C997?style=for-the-badge&logo=Velog&logoColor=white">](https://velog.io/@kiyeon)
+Infrastructure
 
+* Linux (Rocky Linux)
+* AWS
+* XCP-ng / Xen Orchestra
+* FortiGate
+* NFS
 
-### :muscle: Tools
----
-<img src="https://img.shields.io/badge/AMAZONAWS-232F3E?style=for-the-badge&logo=Amazon&logoColor=white"> <img src="https://img.shields.io/badge/DOCKER-2496ED?style=for-the-badge&logo=Docker&logoColor=white"> <img src="https://img.shields.io/badge/JENKINS-D24939?style=for-the-badge&logo=Jenkins&logoColor=white"><br/>
-<img src="https://img.shields.io/badge/ANSIBLE-EE0000?style=for-the-badge&logo=Ansible&logoColor=white"> 
-<img src="https://img.shields.io/badge/GITLAB-FC6D26?style=for-the-badge&logo=GitLab&logoColor=white"> <img src="https://img.shields.io/badge/PROMETHEUS-E6522C?style=for-the-badge&logo=Prometheus&logoColor=white"> <img src="https://img.shields.io/badge/GRAFANA-F46800?style=for-the-badge&logo=Grafana&logoColor=white">  
+Automation & Container
 
+* Ansible
+* Python / Bash
+* Docker
 
+Kubernetes & DevOps
 
+* Kubernetes
+* Helm
+* Jenkins
+* Harbor
+* Argo CD
+* Prometheus / Grafana
 
+DevOps Projects
 
+1. Kubernetes Platform Lab
 
+On-Premise 환경에서 Kubernetes Cluster를 직접 구축한 프로젝트입니다.
+
+* Control Plane / Worker Node 기반 Kubernetes Cluster 구축
+* Container Runtime 및 Kubernetes 주요 구성요소 설치
+* CNI 기반 Pod Network 구성
+* Kubernetes Cluster 운영 및 Troubleshooting 실습
+
+Repository: kubernetes-platform-lab
+
+⸻
+
+2. Kubernetes CI/CD Lab
+
+Jenkins와 Harbor를 활용하여 애플리케이션의 Container Image Build 및 배포 Pipeline을 구성한 프로젝트입니다.
+
+Pipeline
+
+GitHub → Jenkins → Docker Build → Harbor → Kubernetes
+
+* Jenkins CI Pipeline 구성
+* Docker Image Build 및 Tag 관리
+* Harbor Private Registry 구축 및 Image Push
+* Kubernetes 배포 과정 연동
+
+Repository: kubernetes-cicd-lab
+
+⸻
+
+3. Server Inventory Kubernetes
+
+FastAPI 기반 Server Inventory 서비스를 Kubernetes 환경에 배포하고 Helm과 Argo CD를 적용한 프로젝트입니다.
+
+Deployment
+
+Git Repository → Argo CD → Helm → Kubernetes
+
+* FastAPI Application Kubernetes 배포
+* PostgreSQL Database 구성
+* Helm Chart 기반 Kubernetes Resource 관리
+* Argo CD 기반 GitOps 배포 환경 구성
+
+Repository: server-inventory-k8s
+
+⸻
+
+4. Server Inventory API
+
+서버 정보를 관리하기 위해 제작한 FastAPI/PostgreSQL 기반 REST API 프로젝트입니다.
+
+* FastAPI 기반 Server Inventory CRUD API 구현
+* PostgreSQL Database 연동
+* Docker Image 구성
+* Docker Compose 기반 Application/Database 실행 환경 구성
+
+Repository: server-inventory-api
+
+Architecture / Project Flow
+
+전체 프로젝트는 다음 과정으로 확장하며 구성했습니다.
+
+FastAPI + PostgreSQL
+→ Docker
+→ Kubernetes
+→ Helm
+→ Jenkins + Harbor
+→ Argo CD / GitOps
+
+Certification
+
+* CKA (Certified Kubernetes Administrator)
