@@ -54,7 +54,7 @@ On-Premise 환경에서 Kubernetes Cluster를 직접 구축한 프로젝트입�
 * CNI 기반 Pod Network 구성
 * Kubernetes Cluster 운영 및 Troubleshooting 실습
 
-Repository: kubernetes-platform-lab
+[kubernetes-platform-lab](https://github.com/mattang-e/kubernetes-platform-lab)
 
 ⸻
 
@@ -71,7 +71,7 @@ GitHub → Jenkins → Docker Build → Harbor → Kubernetes
 * Harbor Private Registry 구축 및 Image Push
 * Kubernetes 배포 과정 연동
 
-Repository: kubernetes-cicd-lab
+[kubernetes-cicd-lab](https://github.com/mattang-e/kubernetes-cicd-lab)
 
 ⸻
 
@@ -88,7 +88,7 @@ Git Repository → Argo CD → Helm → Kubernetes
 * Helm Chart 기반 Kubernetes Resource 관리
 * Argo CD 기반 GitOps 배포 환경 구성
 
-Repository: server-inventory-k8s
+[server-inventory-k8s](https://github.com/mattang-e/server-inventory-k8s)
 
 ⸻
 
@@ -101,7 +101,7 @@ Repository: server-inventory-k8s
 * Docker Image 구성
 * Docker Compose 기반 Application/Database 실행 환경 구성
 
-Repository: server-inventory-api
+[server-inventory-api](https://github.com/mattang-e/server-inventory-api)
 
 Architecture / Project Flow
 
