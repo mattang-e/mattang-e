@@ -30,6 +30,7 @@ Infrastructure
 
 Automation & Container
 
+* Terraform
 * Ansible
 * Python / Bash
 * Docker
@@ -44,6 +45,17 @@ Kubernetes & DevOps
 * Prometheus / Grafana
 
 DevOps Projects
+
+Terraform과 Xen Orchestra Provider를 활용하여 XCP-ng 가상화 환경의 VM 프로비저닝을 자동화한 프로젝트입니다.
+
+* Xen Orchestra Provider 기반 XCP-ng 연동
+* 기존 Template / Network / NFS Storage 연동
+* CPU / Memory / Disk 리소스 코드 기반 관리
+* for_each를 활용한 다중 VM 프로비저닝
+* Terraform State 기반 리소스 관리 및 Drift 감지
+* xcp-ng-terraform
+  
+[xcp-ng-terraform](https://github.com/mattang-e/xcp-ng-terraform)
 
 1. Kubernetes Platform Lab
 
